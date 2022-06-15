@@ -10,9 +10,9 @@ interface SerializeObject
      * @param object $object
      * @param array<string, mixed> $context
      *
-     * @return string
+     * @return mixed
      *
      * @throws UnableToSerializeObject
      */
-    public function serialize(object $object, array $context = []): string;
+    public function serialize(object $object, array $context = []): mixed;
 }
