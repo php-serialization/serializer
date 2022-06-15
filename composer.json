@@ -1,5 +1,5 @@
 {
-    "name": "php-serializer/serializer",
+    "name": "php-serialization/serializer",
     "description": "Abstract over serializer implementations.",
     "type": "library",
     "license": "MIT",
