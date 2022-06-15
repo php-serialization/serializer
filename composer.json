@@ -1,0 +1,31 @@
+{
+    "name": "php-serializer/serializer",
+    "description": "Abstract over serializer implementations.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "serializer"
+    ],
+    "autoload": {
+        "psr-4": {
+            "PhpSerializer\\Serializer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "v.zanfir",
+            "email": "vadimzanfir@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^4.23"
+    },
+    "scripts": {
+        "psalm": "./vendor/bin/psalm --no-cache"
+    }
+}
